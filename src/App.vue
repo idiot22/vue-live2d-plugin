@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <live2d/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Live2d from './components/live2d/live2d'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Live2d
   }
 }
 </script>
